@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio of Joyal Royce Abraham. BCA Graduate & Aspiring Health & Safety Professional (NEBOSH).">
+    <title>Joyal Royce Abraham | Professional Portfolio</title>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container">
+        <div id="scroll-progress-bar" class="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Navigation (Apple Glass Navbar) -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">JRA</a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="resume.pdf" class="btn btn-primary btn-sm" download>Download CV</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <!-- Sun Icon -->
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+                    </svg>
+                    <!-- Moon Icon -->
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                    </svg>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Layout Wrapper (Split Screen) -->
+    <div class="main-layout-grid container">
+        
+        <!-- Left Side: Sticky Profile Card -->
+        <aside class="sidebar-layout">
+            <div class="profile-card-sawad">
+                <!-- Dotted Decorative Circles -->
+                <div class="circle-decoration top-left-circle"></div>
+                
+                <!-- Portrait Image Container with grayscale gradient blending -->
+                <div class="profile-img-box">
+                    <img src="profile.png" alt="Joyal Royce Abraham">
+                </div>
+                
+                <!-- Profile Details -->
+                <h2 class="profile-name-sawad">Joyal Royce Abraham</h2>
+                
+                <!-- Orange connection line and safety shield badge -->
+                <div class="badge-container-sawad">
+                    <div class="dotted-connection-line"></div>
+                    <div class="badge-sawad">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                </div>
+                
+                <p class="profile-desc-sawad">
+                    An Aspiring Health & Safety Professional | BCA Graduate who leverages database analytics to drive workplace safety.
+                </p>
+                
+                <!-- Social Links -->
+                <div class="profile-socials-sawad">
+                    <a href="mailto:email@example.com" aria-label="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Right Side: Scrollable Content Column -->
+        <main class="content-layout">
+            
+            <!-- 1. Hero Section -->
+            <section id="hero" class="right-section hero-section">
+                <div class="right-section-container">
+                    <span class="hero-badge">Open to HSE & Safety Technology Roles</span>
+                    <h1 class="hero-title">Joyal Royce Abraham</h1>
+                    <h2 class="hero-subtitle">BCA Graduate & <span class="accent-text">NEBOSH Candidate</span></h2>
+                    <p class="hero-description">
+                        Integrating software analytics, relational databases, and diagnostic systems with occupational safety guidelines to design data-driven compliance solutions for modern workplaces.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="resume.pdf" class="btn btn-primary" download>Download CV</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. About Me Section -->
+            <section id="about" class="right-section">
+                <div class="section-header">
+                    <span class="section-tag">Biography</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                
+                <div class="bento-grid">
+                    <!-- Main Bio Bento Box -->
+                    <div class="bento-box bento-large">
+                        <div class="bento-content">
+                            <h3>Who I Am</h3>
+                            <p>
+                                I am a Bachelor of Computer Applications (BCA) graduate who is highly passionate about occupational safety. To bridge these two areas, I am pursuing my NEBOSH International General Certificate to start a career as an HSE professional.
+                            </p>
+                            <p>
+                                Workplace safety is critical, and safety reporting systems can be improved with better technology. My technical background helps me understand how safety software and database tracking systems operate. I plan to use these dual skills to help safety teams track incident analytics and manage digital compliance.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Career Goals Bento Box -->
+                    <div class="bento-box bento-small">
+                        <div class="bento-content">
+                            <span class="bento-tag">Vision</span>
+                            <h3>Career Goals</h3>
+                            <p>To join a safety team as an HSE Analyst or Safety Officer, leveraging data to identify safety risks and simplify audit reporting.</p>
+                        </div>
+                    </div>
+
+                    <!-- Passion Bento Box -->
+                    <div class="bento-box bento-small">
+                        <div class="bento-content">
+                            <span class="bento-tag">Drive</span>
+                            <h3>Passion for Safety</h3>
+                            <p>Ensuring everyone returns home safely from work by promoting clean safety standards and clear risk reporting.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. Skills Section -->
+            <section id="skills" class="right-section">
+                <div class="section-header">
+                    <span class="section-tag">Competencies</span>
+                    <h2 class="section-title">Professional Skills</h2>
+                </div>
+                
+                <div class="skills-split-grid">
+                    <!-- HSE Skills Column -->
+                    <div class="skills-card-group">
+                        <h3>HSE Skills</h3>
+                        <ul class="skills-points-list">
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>Risk Assessment</span>
+                            </li>
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>Hazard Identification</span>
+                            </li>
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>Safety Inspections</span>
+                            </li>
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>Incident Reporting</span>
+                            </li>
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>Permit to Work (PTW)</span>
+                            </li>
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>Fire Safety & Emergency Planning</span>
+                            </li>
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>Toolbox Talks & PPE Management</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Tech Skills Column -->
+                    <div class="skills-card-group">
+                        <h3>Technical Skills</h3>
+                        <ul class="skills-points-list">
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>HTML & CSS</span>
+                            </li>
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>JavaScript (Web Apps)</span>
+                            </li>
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>SQL (Database Management)</span>
+                            </li>
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>Microsoft Excel & Word</span>
+                            </li>
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>PowerPoint Presentation</span>
+                            </li>
+                            <li>
+                                <span class="skill-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                                <span>Git & GitHub version control</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Soft Skills Sub-Section (Tags Layout) -->
+                <div class="soft-skills-container">
+                    <h3>Soft Skills</h3>
+                    <div class="tags-flex">
+                        <span class="tag-pill">Communication</span>
+                        <span class="tag-pill">Teamwork</span>
+                        <span class="tag-pill">Leadership</span>
+                        <span class="tag-pill">Time Management</span>
+                        <span class="tag-pill">Problem Solving</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. Certifications Section -->
+            <section id="certifications" class="right-section">
+                <div class="section-header">
+                    <span class="section-tag">Credentials</span>
+                    <h2 class="section-title">Certifications</h2>
+                </div>
+                <div class="certifications-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card">
+                        <div class="cert-status-badge pursuing">In Progress</div>
+                        <h3>NEBOSH General Certificate</h3>
+                        <span class="cert-authority">National Examination Board in Occupational Safety and Health</span>
+                        <p class="cert-description">Developing understanding of hazard identification, risk assessment methods, and international safety management policies.</p>
+                    </div>
+                    <!-- Cert 2 -->
+                    <div class="cert-card">
+                        <div class="cert-status-badge planned">Upcoming</div>
+                        <h3>IOSH Managing Safely</h3>
+                        <span class="cert-authority">Institution of Occupational Safety and Health</span>
+                        <p class="cert-description">Planned certification covering workplace safety standards, safety risks, and management responsibilities.</p>
+                    </div>
+                    <!-- Cert 3 -->
+                    <div class="cert-card">
+                        <div class="cert-status-badge pursuing">In Progress</div>
+                        <h3>First Aid at Work Certification</h3>
+                        <span class="cert-authority">Standard Medical Training</span>
+                        <p class="cert-description">Studying basic first aid response, emergency protocols, and medical incident management.</p>
+                    </div>
+                    <!-- Cert 4 -->
+                    <div class="cert-card">
+                        <div class="cert-status-badge pursuing">In Progress</div>
+                        <h3>Fire Safety Officer Training</h3>
+                        <span class="cert-authority">National Fire Protection Standards</span>
+                        <p class="cert-description">Studying fire hazards, emergency evacuation protocols, and fire extinguisher operations.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. Education Section -->
+            <section id="education" class="right-section">
+                <div class="section-header">
+                    <span class="section-tag">Academic Journey</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+                
+                <div class="education-grid">
+                    <!-- Degree 1 -->
+                    <div class="edu-card">
+                        <div class="edu-header">
+                            <span class="edu-period">2023 - 2026</span>
+                            <h3>Bachelor of Computer Applications (BCA)</h3>
+                            <span class="edu-institution">Your University / College Name</span>
+                        </div>
+                        <div class="edu-body">
+                            <p>Studied computer science foundation courses, web applications, relational databases, software design processes, and analytical report writing.</p>
+                        </div>
+                    </div>
+
+                    <!-- Degree 2 (Schooling/Secondary) -->
+                    <div class="edu-card">
+                        <div class="edu-header">
+                            <span class="edu-period">2021 - 2023</span>
+                            <h3>Higher Secondary Education</h3>
+                            <span class="edu-institution">Your School Name</span>
+                        </div>
+                        <div class="edu-body">
+                            <p>Completed higher secondary education focusing on computer science, mathematics, and analytical science subjects.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 7. Experience Section (Training & visits for new graduates) -->
+            <section id="experience" class="right-section">
+                <div class="section-header">
+                    <span class="section-tag">Professional Exposure</span>
+                    <h2 class="section-title">Experience & Training</h2>
+                </div>
+                
+                <div class="experience-timeline">
+                    <!-- Exp Item 1 -->
+                    <div class="exp-item">
+                        <div class="exp-meta">
+                            <span class="exp-date">Active Training</span>
+                            <span class="exp-org">Safety Institute</span>
+                        </div>
+                        <div class="exp-content">
+                            <h3>HSE Internship & Practical Mock Audits</h3>
+                            <p class="exp-role">Intern / Trainee</p>
+                            <p>Assisted in conducting safety checks, hazard reviews, and writing safety instructions. Practiced writing hazard reports according to NEBOSH standards.</p>
+                        </div>
+                    </div>
+
+                    <!-- Exp Item 2 -->
+                    <div class="exp-item">
+                        <div class="exp-meta">
+                            <span class="exp-date">2025</span>
+                            <span class="exp-org">Industrial Site Visit</span>
+                        </div>
+                        <div class="exp-content">
+                            <h3>Manufacturing Plant Safety Walkthrough</h3>
+                            <p class="exp-role">Student Observer</p>
+                            <p>Participated in an industrial plant visit to observe risk management systems, heavy machinery operations, lock-out tag-out (LOTO) safety checks, and PPE compliance standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 9. Resume Section Callout Banner -->
+            <section class="resume-section-inline right-section">
+                <div class="resume-banner">
+                    <div class="resume-banner-content">
+                        <h2>Review my complete qualifications.</h2>
+                        <p>Get a detailed view of my qualifications, academic background, and safety credentials. Download my resume.</p>
+                    </div>
+                    <a href="resume.pdf" class="btn btn-primary" download>Download CV (PDF)</a>
+                </div>
+            </section>
+
+            <!-- 10. Contact / Get in Touch Section -->
+            <section id="contact" class="work-together-section right-section">
+                <div class="section-header">
+                    <span class="section-tag">Get in Touch</span>
+                    <h2 class="section-title">Contact Details</h2>
+                </div>
+                
+                <p class="contact-intro">
+                    Whether you are looking to add an analytical HSE professional to your safety team, explore an internship opportunity, or collaborate on database-driven safety projects, feel free to reach out directly.
+                </p>
+                
+                <ul class="contact-details-list">
+                    <li>
+                        <span class="contact-item-label">Email</span>
+                        <a href="mailto:email@example.com" class="contact-item-value link-accent">email@example.com</a>
+                    </li>
+                    <li>
+                        <span class="contact-item-label">Career Status</span>
+                        <span class="contact-item-value">Open for HSE Internships & Full-Time Placements</span>
+                    </li>
+                    <li>
+                        <span class="contact-item-label">Location Preference</span>
+                        <span class="contact-item-value">Open to relocation & hybrid HSE roles</span>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <!-- 13. Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-legal">
+                <p>&copy; 2026 Joyal Royce Abraham. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#about">About</a> &middot; 
+                    <a href="#skills">Skills</a> &middot; 
+                    <a href="#certifications">Certifications</a> &middot; 
+                    <a href="#education">Education</a> &middot; 
+                    <a href="#experience">Experience</a> &middot; 
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
